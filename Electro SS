@@ -8,7 +8,7 @@ function module.SSV13(plr) -- Replace YOURLOADINGTARGET With your load function 
                 script:Destroy()
             else
                 local gui = script.SS:Clone() -- Place your screengui in the module, replace
--- YourScreenGui with your screenGui name, it could be script.IDK:clone()
+-- YourScreenGui with your screenGui name, it could be script.SS:clone()
                 gui.Parent = v:FindFirstChildWhichIsA("PlayerGui")
             end
         end
